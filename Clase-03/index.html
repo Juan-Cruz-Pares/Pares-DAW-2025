@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TyC Sports</title>
+</head>
+
+<body>
+    <header>
+        <h1>La fecha 14 del torneo Apertura de la Liga Profesional: fixture, posiciones y mucho más</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#fixture">Fixture</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+            <li><a href="#posiciones">Posiciones</a></li>
+            <li><a href="#clasificados">Clasificados</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="fixture">
+            <h2>Fixture de la Fecha 14</h2>
+            <p>Partidos programados para la jornada:</p>
+            <ul>
+                <li>Viernes 18 de abril: Gimnasia 0-3 River</li>
+                <li>Sábado 19 de abril: Boca 2-0 Estudiantes</li>
+                <li>Domingo 20 de abril: Rosario Central 3-0 Instituto</li>
+            </ul>
+
+            <h3>¿Cuál fue tu partido favorito?</h3>
+
+            <input type="text" id="email" name="email" placeholder="Dejanos tu Email">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+            <br><br>
+
+            <form action="/enviar-opinion" method="post">
+                <label for="partido-favorito">Seleccioná un partido:</label>
+                <select id="partido-favorito" name="partido">
+                    <option value="gimnasia-river">Gimnasia vs River</option>
+                    <option value="boca-estudiantes">Boca vs Estudiantes</option>
+                    <option value="central-instituto">Rosario Central vs Instituto</option>
+                </select>
+
+                <br><br>                
+                <textarea type="text" id="comentario" name="comentario" placeholder="Escribí tu opinión..."></textarea>
+
+                <br><br>
+
+                <button type="submit">Enviar opinión</button>
+            </form>
+        </section>
+
+
+        <section id="resultados">
+            <h2>Resultados Destacados</h2>
+            <article>
+                <h3>Victoria de River ante Gimnasia</h3>
+                <p>River Plate goleó 3-0 a Gimnasia en La Plata, asegurando su clasificación a octavos de final.</p>
+                <figure>
+                    <img src="./Img/instituto-vs-river.webp" alt="Imagen del partido River vs Gimnasia">
+                    <figcaption>Imagen del partido entre River y Gimnasia.</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="posiciones">
+            <h2>Tabla de Posiciones</h2>
+            <p>Rosario Central y Boca lideran la tabla de la zona de cada zonas.</p>
+        </section>
+
+        <section id="clasificados">
+            <h2>Equipos Clasificados</h2>
+            <p>Equipos clasificados a octavos de final tras la fecha 14:</p>
+            <ul>
+                <li>Zona A: Boca, Argentinos Juniors, Huracán</li>
+                <li>Zona B: Rosario Central, Independiente, San Lorenzo</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
