@@ -1,0 +1,151 @@
+/* Estilos globales */
+* {
+    box-sizing: border-box; /* Usamos box-sizing para que padding y border no afecten el tamaño del elemento */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0055aa;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav {
+    background-color: #003366;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px white;
+}
+
+section h2, section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0055aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003f7f;
+}
+
+figure {
+    margin: 10px 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 6px;
+}
+
+article h3 {
+    color: #0055aa;
+}
+
+@media (max-width: 767px) {
+    nav ul {
+        padding-left: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 1025px) {
+    nav ul {
+        padding-left: 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    section {
+        width: 48%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
