@@ -7,3 +7,5 @@ Clase 3: se agrega un formulario y la carpeta img.
 Clase 4: se agrega la hoja de estilo style.css y se aplica el uso de selectores.
 
 Clase 5: se agrega el uso de box-model y adaptacion de la web a diferentes tamaños de pantallas.
+
+Clase 6: se agrega el uso de flexbox y git page.
